@@ -10,7 +10,7 @@ export default function Home() {
     <Fragment>
       <div className="container mx-auto max-w-screen-xl">
         <main className="flex flex-col md:flex-row-reverse sm:m-12 shadow-2xl rounded-lg overflow-hidden">
-          <div className="w-full md:max-w-sm p-8 bg-gradient-to-b from-rose-100 via-teal-100 to-white">
+          <div className="w-full lg:max-w-xs p-8 bg-gradient-to-b from-rose-100 via-teal-100 to-white">
             <div className="px-2 mb-12">
               <h1 className="text-center text-3xl font-semibold mb-2">
                 Avi Khandakar
@@ -99,8 +99,8 @@ export default function Home() {
             </div> */}
           </div>
           <div className="content w-full p-12">
-            <div id="profile" className="prose">
-              <h2 className="text-teal-500 uppercase relative pl-4"><span className="absolute inset-0 w-2 h-full bg-rose-300" />Profile</h2>
+            <div className="prose">
+              <h2 className="text-teal-500 uppercase relative pl-4"><span className="absolute inset-0 w-2 h-full bg-rose-300" />Objective</h2>
               <p>
                 I'm a self-taught web developer focusing on the core web
                 fundamentals - HTML, CSS and JS. I'm experienced in frontend
@@ -163,7 +163,7 @@ export default function Home() {
                   <div className="lg:inline-block lg:w-3/12 lg:align-top italic mb-2">
                     Built with:
                   </div>
-                  <div className="lg:w-8/12 w-full gap-4 inline-flex">
+                  <div className="lg:w-8/12 w-full gap-4 inline-flex flex-wrap">
                     <span className="underline">Next.js</span>
                     <span className="underline">Tailwind</span>
                     <span className="underline">
@@ -234,7 +234,7 @@ export default function Home() {
                       rel="noopener noreferrer"
                     >
                       https://mkdrivingschool.vercel.app                    </a>
-                  <div className="w-full aspect-[800/546] -ml-6">
+                  <div className="w-full aspect-[800/546] -ml-4 sm:-ml-6">
                     <Image src="/img/p1.jpg" width={800} height={546} />
                   </div>
                 </div>
@@ -247,7 +247,7 @@ export default function Home() {
                     >
                       https://rijik-data-allah.vercel.app
                     </a>
-                  <div className="w-full aspect-[800/546] -ml-6">
+                  <div className="w-full aspect-[800/546] -ml-4 sm:-ml-6">
                     <Image src="/img/p2.jpg" width={800} height={546} />
                   </div>
                 </div>
