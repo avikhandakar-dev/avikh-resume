@@ -23,7 +23,7 @@ export default function Home() {
             <div className="font-light text-lg px-2 mb-12">
               <h2 className="text-xl font-semibold mb-4">Contact</h2>
               <div className="flex items-center gap-4 my-3">
-                <FiMail className="text-2xl" />
+                <span className="text-2xl"><FiMail /></span>
                 <a href="mailto:avikhandakar@gmail.com">avikhandakar@gmail.com</a>
               </div>
               <div className="flex items-center my-3 gap-4">
