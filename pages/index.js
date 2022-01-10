@@ -188,7 +188,7 @@ export default function Home() {
                   </div>
                   <div className="lg:inline-block lg:w-8/12 w-full">
                     <a
-                      href="https://mkdrivingschool.vercel.app"
+                      href="https://www.thegratefulgiving.com"
                       target="_blank"
                       rel="noopener noreferrer"
                     >
@@ -229,7 +229,7 @@ export default function Home() {
                 <div className="w-full">
                   <h3>MK Driving School</h3>
                   <a
-                      href="https://www.thegratefulgiving.com/"
+                      href="https://mkdrivingschool.vercel.app"
                       target="_blank"
                       rel="noopener noreferrer"
                     >
