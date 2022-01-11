@@ -141,14 +141,12 @@ export default function Home() {
                     Features:
                   </div>
                   <div className="lg:inline-block lg:w-8/12 w-full">
-                    <ul>
-                      <li>Static generation</li>
-                      <li>Custom admin panel</li>
-                      <li>Poll / Voting system</li>
-                      <li>Blog content written in Markdown</li>
-                      <li>Stripe payment</li>
-                      <li>SEO</li>
-                    </ul>
+                      Static generation,
+                      Custom admin panel,
+                      Poll / Voting system,
+                      Blog content written in Markdown,
+                      Stripe payment,
+                      SEO,
                   </div>
                 </section>
 
@@ -195,11 +193,10 @@ export default function Home() {
                     Features:
                   </div>
                   <div className="lg:inline-block lg:w-8/12 w-full">
-                    <ul>
-                      <li>Role-based access control</li>
-                      <li>Admin panel</li>
-                      <li>Paypal / Stripe payment</li>
-                    </ul>
+                    
+                      Role-based access control
+                      Admin panel
+                      Paypal / Stripe payment
                   </div>
                 </section>
 
