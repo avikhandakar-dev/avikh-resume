@@ -7,9 +7,13 @@ import {AiOutlineSketch} from "react-icons/ai";
 import {ImWordpress} from "react-icons/im";
 import {DiLinux} from "react-icons/di";
 import Image from "next/image";
+import Head from "next/head";
 export default function Home() {
   return (
     <Fragment>
+      <Head>
+        <title>Avi Khandakar - Resume</title>
+      </Head>
       <div className="container mx-auto max-w-screen-xl">
         <main className="flex flex-col md:flex-row-reverse sm:m-12 shadow-2xl rounded-lg overflow-hidden">
           <div className="w-full lg:max-w-xs p-8 bg-gradient-to-b from-rose-100 via-teal-100 to-white">
@@ -255,6 +259,21 @@ export default function Home() {
               </div>
 
               <div className="grid grid-cols-1">
+              <div className="w-full">
+                  <h3>Notorious LTD</h3>
+                  <a
+                      href="https://notoriousltd.com/"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                    >
+                      https://notoriousltd.com                    
+                  </a>
+                  <div className="w-full aspect-[800/546] -ml-4 sm:-ml-6">
+                    <Image src="/img/p3.jpg" width={800} height={546} />
+                  </div>
+                  <span className="italic font-semibold text-gray-500">Wordpress, WooCommerce</span>
+
+                </div>
                 <div className="w-full">
                   <h3>MK Driving School</h3>
                   <a
@@ -266,6 +285,7 @@ export default function Home() {
                   <div className="w-full aspect-[800/546] -ml-4 sm:-ml-6">
                     <Image src="/img/p1.jpg" width={800} height={546} />
                   </div>
+                  <span className="italic font-semibold text-gray-500">Next.JS, Tailwind, Firebase</span>
                 </div>
                 <div className="w-full">
                 <h3>Rijik Data Allah</h3>
@@ -279,6 +299,8 @@ export default function Home() {
                   <div className="w-full aspect-[800/546] -ml-4 sm:-ml-6">
                     <Image src="/img/p2.jpg" width={800} height={546} />
                   </div>
+                  <span className="italic font-semibold text-gray-500">Next.JS, Tailwind, Firebase</span>
+
                 </div>
               </div>
             </div>
