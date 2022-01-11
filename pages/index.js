@@ -102,22 +102,15 @@ export default function Home() {
             <div className="prose">
               <h2 className="text-teal-500 uppercase relative pl-4"><span className="absolute inset-0 w-2 h-full bg-rose-300" />Objective</h2>
               <p>
-                I'm a self-taught web developer focusing on the core web
-                fundamentals - HTML, CSS and JS. I'm experienced in frontend
-                frameworks like Vue and React and static site generators like
-                Next.js and Gatsby. I use CSS frameworks like
-                TailwindCSS or Bootstrap to speed up styling of my
-                projects.
+              I’m a fullstack developer interested in using my skills on core web fundamentals – HTML, CSS and JS. I’m passionate about learning and enhancing my skills and contributing to a collaborative environment.
               </p>
-              <p>
-                I am highly motivated in expanding my skills day by day for
-                better performance, testing and user experience.
-              </p>
+              
             </div>
             <hr className="mt-8 mb-12" />
             <div className="prose">
-              <h2 className="text-teal-500 uppercase relative pl-4"><span className="absolute inset-0 w-2 h-full bg-rose-300" />Projects</h2>
-              <h3 className="font-light italic text-gray-600">Some of my works</h3>
+              <h2 className="text-teal-500 uppercase relative pl-4"><span className="absolute inset-0 w-2 h-full bg-rose-300" />PROJECTS AND EXPERIENCES</h2>
+              <p>I’m experienced in Vue and React developing frontend frameworks. I also have expertise in static site generators like Next.js and Gatsby along with CSS frameworks TailwindCSS/Bootstrap.</p>
+              <h3 className="font-light italic text-gray-600">Some of the projects I developed</h3>
               <div className="mb-16">
                 <h3>Buetian89 North America</h3>
                 <section className="mb-6">
