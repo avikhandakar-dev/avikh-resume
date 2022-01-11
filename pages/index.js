@@ -194,8 +194,8 @@ export default function Home() {
                   </div>
                   <div className="lg:inline-block lg:w-8/12 w-full">
                     
-                      Role-based access control
-                      Admin panel
+                      Role-based access control,
+                      Admin panel,
                       Paypal / Stripe payment
                   </div>
                 </section>
