@@ -109,7 +109,7 @@ export default function Home() {
             <hr className="mt-8 mb-12" />
             <div className="prose">
               <h2 className="text-teal-500 uppercase relative pl-4"><span className="absolute inset-0 w-2 h-full bg-rose-300" />PROJECTS AND EXPERIENCES</h2>
-              <p>I’m experienced in Vue and React developing frontend frameworks. I also have expertise in static site generators like Next.js and Gatsby along with CSS frameworks TailwindCSS/Bootstrap.</p>
+              <p>I’m experienced in React and Vue developing frontend frameworks. I also have expertise in static site generators like Next.js and Gatsby along with CSS frameworks TailwindCSS/Bootstrap.</p>
               <h3 className="font-light italic text-gray-600">Some of the projects I developed</h3>
               <div className="mb-16">
                 <h3>Buetian89 North America</h3>
