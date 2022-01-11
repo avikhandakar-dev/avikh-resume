@@ -1,9 +1,11 @@
 import { Fragment } from "react";
 import { FiMail, FiSmartphone, FiUsers } from "react-icons/fi";
-import { IoHomeOutline, IoLogoJavascript, IoLogoNodejs, IoLogoPython } from "react-icons/io5";
+import { IoHomeOutline, IoLogoFirebase, IoLogoJavascript, IoLogoNodejs, IoLogoPython } from "react-icons/io5";
 import { FaReact } from "react-icons/fa";
-import {SiNextdotjs, SiTailwindcss} from "react-icons/si";
+import {SiGnubash, SiMongodb, SiNextdotjs, SiTailwindcss} from "react-icons/si";
 import {AiOutlineSketch} from "react-icons/ai";
+import {ImWordpress} from "react-icons/im";
+import {DiLinux} from "react-icons/di";
 import Image from "next/image";
 export default function Home() {
   return (
@@ -78,6 +80,10 @@ export default function Home() {
                   <p>Python / Flask</p>
                 </li>
                 <li className="flex items-center my-3 gap-4">
+                  <ImWordpress className="text-2xl" />
+                  <p>Wordpress</p>
+                </li>
+                <li className="flex items-center my-3 gap-4">
                   <AiOutlineSketch className="text-2xl" />
                   <p>Sketch / Figma</p>
                 </li>
@@ -87,6 +93,39 @@ export default function Home() {
                 </li>
                 
                 
+              </ul>
+            </div>
+
+            <div className="font-light text-lg px-2 mb-12">
+              <h2 className="text-xl font-semibold mb-4">Database</h2>
+              <ul className="list-none">
+                
+                <li className="flex items-center my-3 gap-4">
+                  <IoLogoFirebase className="text-2xl" />
+                  <p>Firebase</p>
+                </li>
+                
+                <li className="flex items-center my-3 gap-4">
+                  <SiMongodb className="text-2xl" />
+                  <p>Mongo DB</p>
+                </li>
+
+              </ul>
+            </div>
+            <div className="font-light text-lg px-2 mb-12">
+              <h2 className="text-xl font-semibold mb-4">Others</h2>
+              <ul className="list-none">
+                
+                <li className="flex items-center my-3 gap-4">
+                  <SiGnubash className="text-2xl" />
+                  <p>Bash</p>
+                </li>
+                
+                <li className="flex items-center my-3 gap-4">
+                  <DiLinux className="text-2xl" />
+                  <p>Linux/Unix</p>
+                </li>
+
               </ul>
             </div>
 
@@ -102,7 +141,7 @@ export default function Home() {
             <div className="prose">
               <h2 className="text-teal-500 uppercase relative pl-4"><span className="absolute inset-0 w-2 h-full bg-rose-300" />Objective</h2>
               <p>
-              I’m a fullstack developer interested in using my skills on core web fundamentals – HTML, CSS and JS. I’m passionate about learning and enhancing my skills and contributing to a collaborative environment.
+              I’m a fullstack developer interested in using my skills on core web fundamentals. I’m passionate about learning and enhancing my skills and contributing to a collaborative environment.
               </p>
               
             </div>
